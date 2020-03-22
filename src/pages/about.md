@@ -1,17 +1,19 @@
 ---
 title: "About"
-date: "2018-07-19"
-author: "Radek"
+date: "2020-03-22"
+author: "Hugo I. Ramirez"
 path: "/about"
 ---
 
 ## Hi there
 
-My name is Radek and I'm the author of this starter. I made it to help you present your ideas easier.
+My name is Hugo I. Ramirez Soto. I'm a Full-Stack Software Developer, UX Designer, father of family and baseball fanatic.
 
-We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
+Currently, I'm living in Freiburg im Breisgau, Germany, I was born and raised in Mexico City, Mexico.
 
-This starter is pretty basic and covers all of the essentials. All you have to do is start typing!
+I started this blog following the advice of [**@flaviocopes**](https://twitter.com/flaviocopes). I want to contribute to the community by writing my experiences as a developer and the challenges that I have faced with others. Sometimes when a developer is studying a new technology it is often easy for him or her to review a blog than study the docs of that technology because he or she knows that the blog will explain the problem in words that they can understand and also the blog might give real examples.
+
+Besides, to fully understand a problem or technology sometimes is better to explain it to others, this gives you other perspectives and also helps your brain to retain this new knowledge.
 
 The starter includes:
 

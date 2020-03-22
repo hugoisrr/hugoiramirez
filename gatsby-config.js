@@ -7,15 +7,15 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `Hello Friend`,
-    description: `A simple starter for Gatsby. That's it.`,
+    title: `Hugo I. Ramirez`,
+    description: `Personal Blog Developer & UX Designer`,
     copyrights: '',
-    author: `@panr`,
+    author: `@hugoisrr`,
     logo: {
       src: '',
       alt: '',
     },
-    logoText: 'hello friend',
+    logoText: 'hugoisrr',
     defaultTheme: 'dark',
     postsPerPage: 5,
     showMenuItems: 2,
@@ -85,6 +85,23 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: 'gatsby-remark-emojis',
+            // options: {
+            //   active: true,
+            //   class: 'emoji-icon',
+            //   escapeCharacter: '',
+            //   size: 64,
+            //   styles: {
+            //     display: 'inline',
+            //     margin: '0',
+            //     'margin-top': '1px',
+            //     position: 'relative',
+            //     top: '5px',
+            //     width: '25px',
+            //   },
+            // },
+          },
+          {
             resolve: 'gatsby-remark-embed-video',
             options: {
               related: false,
@@ -114,13 +131,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-hello-friend`,
-        short_name: `hello-friend`,
+        name: `hugo-i-ramirez`,
+        short_name: `hugoisrr`,
         start_url: `/`,
         background_color: `#292a2d`,
         theme_color: `#292a2d`,
         display: `minimal-ui`,
-        icon: `src/images/hello-icon.png`,
+        icon: `src/images/axolotl_logo.png`,
       },
     },
   ],

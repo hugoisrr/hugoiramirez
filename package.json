@@ -1,9 +1,15 @@
 {
-  "name": "gatsby-starter-hello-friend",
-  "description": "A simple starter for Gatsby. That's it.",
+  "name": "hugoisrr",
+  "description": "Fullstack developer and UX designer personal blog.",
+  "homepage": "https://hugoisrr.github.io/hugoiramirez.com",
   "version": "0.2.0",
-  "author": "Radek Kozieł <radoslaw.koziel@gmail.com>",
+  "author": "Hugo I. Ramirez Soto <84rami@gmail.com>",
   "keywords": [
+    "developer",
+    "ux",
+    "frontend",
+    "backend",
+    "fullstack",
     "gatsby",
     "minimal",
     "starter",
@@ -15,6 +21,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "deploy": "gh-pages -d public",
     "build": "gatsby build",
     "dev": "gatsby clean && gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
@@ -29,6 +36,7 @@
     "gatsby-plugin-postcss": "^2.0.2",
     "gatsby-plugin-react-helmet": "^3.0.2",
     "gatsby-plugin-sharp": "^2.0.17",
+    "gatsby-remark-emojis": "^0.4.2",
     "gatsby-remark-images": "^3.0.1",
     "gatsby-remark-prismjs": "^3.2.0",
     "gatsby-source-filesystem": "^2.0.8",
@@ -65,9 +73,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/panr/gatsby-starter-hello-friend"
-  },
-  "bugs": {
-    "url": "https://github.com/panr/gatsby-starter-hello-friend/issues"
+    "url": "https://github.com/hugoisrr/hugoiramirez.com"
   }
 }
