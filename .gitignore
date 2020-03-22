@@ -67,3 +67,8 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# Example files
+src/posts/example.md
+src/posts/hello.md
+
