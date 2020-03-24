@@ -69,6 +69,5 @@ yarn-error.log
 .yarn-integrity
 
 # Example files
-src/posts/example.md
-src/posts/hello.md
+src/posts/example
 

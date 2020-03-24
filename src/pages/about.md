@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: "2020-03-22"
+date: "2019-09-18"
 author: "Hugo I. Ramirez"
 path: "/about"
 ---
@@ -9,9 +9,9 @@ path: "/about"
 
 My name is Hugo I. Ramirez Soto. I'm a Full-Stack Software Developer, UX Designer, husband, father and baseball fanatic.
 
-![Personal picture](src/../../images/about.png)
+![Personal picture](src/../../images/about.jpg)
 
-<em>Picture taken in one of the towers at the Cologne Cathedral.</em>
+<em>-Picture taken in one of the towers at the Cologne Cathedral.</em>
 
 Currently, I'm living in Freiburg im Breisgau, Germany, I was born and raised in Mexico City, Mexico.
 
