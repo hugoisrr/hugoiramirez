@@ -11,6 +11,8 @@ My name is Hugo I. Ramirez Soto. I'm a Full-Stack Software Developer, UX Designe
 
 ![Personal picture](src/../../images/about.jpg)
 
+<!-- markdownlint-disable MD033 MD026 -->
+
 <em>-Picture taken in one of the towers at the Cologne Cathedral.</em>
 
 Currently, I'm living in Freiburg im Breisgau, Germany, I was born and raised in Mexico City, Mexico.
@@ -27,3 +29,5 @@ Besides, to fully understand a problem or technology sometimes is better to expl
 - [**BAMF**](https://bamf.com.mx/) - <em>Fullstack developer</em>
 - [**Universidad Autónoma Metropolitana**](http://www.cua.uam.mx/) - <em>Information Technology, B.Sc.</em>
 - [**Hochshule Hof**](https://www.hof-university.de/) - <em>Semester abroad</em>
+
+## Which technologies and tools do I use?
