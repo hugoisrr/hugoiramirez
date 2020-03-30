@@ -31,3 +31,21 @@ Besides, to fully understand a problem or technology sometimes is better to expl
 - [**Hochshule Hof**](https://www.hof-university.de/) - <em>Semester abroad</em>
 
 ## Which technologies and tools do I use?
+
+- React JS
+- Redux
+- Node JS
+- Mongoose
+- PHP
+- Laravel
+- Bootstrap
+- Materialize
+- Sass
+- Gulp
+- Vscode
+- Git
+- Gatsby
+- Typrescript
+- Java
+- Docker
+- Mariadb
