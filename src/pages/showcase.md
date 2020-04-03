@@ -9,15 +9,11 @@ path: "/showcase"
 
 As part of an IoT platform, I developed different UI's that show the current status and the data flow from three different API's through three different Websockets. The first UI shows two cards that display the data from a Workstation, the state, and the percentage values change every time a new message is received. The colors of the states are generated dynamically as well as the number of cards depending on the workstations received. The second UI displays the data flow from 12 sensors, the user can choose a different device.
 
-![demostrator](https://i.imgur.com/uPxlQQE.gif)
+![demostrator](https://i.imgur.com/sjJqa9o.gif)
 
 <!-- markdownlint-disable MD033 -->
 
 <em>- States and Percentage displayed for each workstation.</em>
-
-![deviceAPI](https://i.imgur.com/zgqCvrg.gif)
-
-<em>- Data flow displayed in line graphs from 12 sensors in each device.</em>
 
 ## BAMF
 
