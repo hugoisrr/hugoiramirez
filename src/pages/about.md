@@ -13,8 +13,6 @@ My name is Hugo I. Ramirez Soto. I'm a Full-Stack Software Developer, UX Designe
 
 <!-- markdownlint-disable MD033 MD026 -->
 
-<em>-Picture taken in one of the towers at the Cologne Cathedral.</em>
-
 Currently, I'm living in Freiburg im Breisgau, Germany, I was born and raised in Mexico City, Mexico.
 
 I started this blog following the advice of <a href="https://twitter.com/flaviocopes" target="_blank">**@flaviocopes**</a>. I want to contribute to the community by writing my experiences as a developer and the challenges that I have faced with others. Sometimes when a developer is studying a new technology it is often easy for him or her to review a blog than study the docs of that technology because he or she knows that the blog will explain the problem in words that they can understand and also the blog might give real examples.
