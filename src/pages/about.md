@@ -9,7 +9,7 @@ path: "/about"
 
 My name is Hugo I. Ramirez Soto. I'm a Full-Stack Software Developer, UX Designer, husband, father and baseball fanatic.
 
-![Personal picture](src/../../images/about.jpg)
+![Personal picture](src/../../images/personalPicture.jpg)
 
 <!-- markdownlint-disable MD033 MD026 -->
 
