@@ -1,37 +1,37 @@
-const postCssPresetEnv = require(`postcss-preset-env`)
-const postCSSNested = require('postcss-nested')
-const postCSSUrl = require('postcss-url')
-const postCSSImports = require('postcss-import')
-const cssnano = require('cssnano')
-const postCSSMixins = require('postcss-mixins')
+const postCssPresetEnv = require(`postcss-preset-env`);
+const postCSSNested = require("postcss-nested");
+const postCSSUrl = require("postcss-url");
+const postCSSImports = require("postcss-import");
+const cssnano = require("cssnano");
+const postCSSMixins = require("postcss-mixins");
 
 module.exports = {
   siteMetadata: {
     title: `Hugo I. Ramirez`,
     description: `Personal Blog Developer & UX Designer`,
-    copyrights: '',
+    copyrights: "",
     author: `@hugoisrr`,
     logo: {
-      src: '',
-      alt: '',
+      src: "",
+      alt: "",
     },
-    logoText: 'hugoisrr',
-    defaultTheme: 'dark',
+    logoText: "hugoisrr",
+    defaultTheme: "dark",
     postsPerPage: 5,
     showMenuItems: 2,
-    menuMoreText: 'Show more',
+    menuMoreText: "Show more",
     mainMenu: [
       {
-        title: 'About',
-        path: '/about',
+        title: "About",
+        path: "/about",
       },
       {
-        title: 'Showcase',
-        path: '/showcase',
+        title: "Showcase",
+        path: "/showcase",
       },
       {
-        title: 'Example',
-        path: '/example',
+        title: "Example",
+        path: "/example",
       },
     ],
   },
@@ -68,12 +68,12 @@ module.exports = {
           postCSSMixins(),
           postCSSNested(),
           postCssPresetEnv({
-            importFrom: 'src/styles/variables.css',
+            importFrom: "src/styles/variables.css",
             stage: 1,
             preserve: false,
           }),
           cssnano({
-            preset: 'default',
+            preset: "default",
           }),
         ],
       },
@@ -85,24 +85,24 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-emojis',
+            resolve: "gatsby-remark-emojis",
             options: {
               active: true,
-              class: 'emoji-icon',
-              escapeCharacter: '',
+              class: "emoji-icon",
+              escapeCharacter: "",
               size: 64,
               styles: {
-                display: 'inline',
-                margin: '0',
-                'margin-top': '1px',
-                position: 'relative',
-                top: '5px',
-                width: '25px',
+                display: "inline",
+                margin: "0",
+                "margin-top": "1px",
+                position: "relative",
+                top: "5px",
+                width: "25px",
               },
             },
           },
           {
-            resolve: 'gatsby-remark-embed-video',
+            resolve: "gatsby-remark-embed-video",
             options: {
               related: false,
               noIframeBorder: true,
@@ -118,7 +118,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              classPrefix: 'language-',
+              classPrefix: "language-",
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
@@ -133,7 +133,7 @@ module.exports = {
       options: {
         name: `hugo-i-ramirez`,
         short_name: `hugoisrr`,
-        start_url: `/`,
+        start_url: `/hugoiramirez/`,
         background_color: `#292a2d`,
         theme_color: `#292a2d`,
         display: `minimal-ui`,
@@ -141,4 +141,4 @@ module.exports = {
       },
     },
   ],
-}
+};
